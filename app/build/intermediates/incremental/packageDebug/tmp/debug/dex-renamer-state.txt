@@ -1,0 +1,4 @@
+#Wed Jul 04 16:38:40 IST 2018
+base.0=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\151
+path.0=classes.dex
+renamed.0=classes.dex

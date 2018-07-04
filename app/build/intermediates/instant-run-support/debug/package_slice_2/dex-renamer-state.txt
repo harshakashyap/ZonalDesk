@@ -1,0 +1,4 @@
+#Sat Jun 23 22:49:36 IST 2018
+base.0=/home/kashyap/AndroidStudioProjects/ZonalDesk/app/build/intermediates/transforms/dexMerger/debug/21
+path.0=classes.dex
+renamed.0=classes.dex

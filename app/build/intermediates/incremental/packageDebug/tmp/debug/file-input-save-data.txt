@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jul 04 16:38:41 IST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\151
+0.path=classes.dex
+0.set=DEX
+count=1
