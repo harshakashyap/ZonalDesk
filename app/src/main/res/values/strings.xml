@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZonalDesk</string>
+    <string name="facebook_app_id">611686562526519</string>
+    <string name="fb_login_protocol_scheme">fb611686562526519</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

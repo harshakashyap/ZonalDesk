@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"></item>
+    <item
+        android:id="@+id/Status"
+        android:icon="@drawable/status"
+        android:title="Status"></item>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history"
+        android:title="History"></item>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/phone"
+        android:title="Contact">
+
+    </item>
+    <item
+        android:id="@+id/log"
+        android:icon="@drawable/logout"
+        android:title="LogOut"></item>
+</menu>
