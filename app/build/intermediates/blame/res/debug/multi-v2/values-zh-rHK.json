@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\39fad7e8dcb11525af9b032257c6b49a\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,348,508,621,721,887,1001,1129,1247,1416,1515,1675,1788,1954,2088,2169,2252",
+                        "endColumns": "98,159,112,99,165,113,127,117,168,98,159,112,165,133,80,82,96",
+                        "endOffsets": "347,507,620,720,886,1000,1128,1246,1415,1514,1674,1787,1953,2087,2168,2251,2348"
+                    },
+                    "to": {
+                        "startLines": "42,43,44,45,46,47,48,49,51,52,53,54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3951,4054,4214,4331,4435,4601,4719,4851,5140,5309,5412,5572,5689,5855,5993,6078,6165",
+                        "endColumns": "102,159,116,103,165,117,131,121,168,102,159,116,165,137,84,86,100",
+                        "endOffsets": "4049,4209,4326,4430,4596,4714,4846,4968,5304,5407,5567,5684,5850,5988,6073,6160,6261"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9e05df1bc6dcc34117e3b22e32f39651\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
@@ -13,11 +30,11 @@
                         "endOffsets": "152"
                     },
                     "to": {
-                        "startLines": "43",
+                        "startLines": "61",
                         "startColumns": "4",
-                        "startOffsets": "4029",
+                        "startOffsets": "6344",
                         "endColumns": "101",
-                        "endOffsets": "4126"
+                        "endOffsets": "6441"
                     }
                 },
                 {
@@ -47,11 +64,28 @@
                         "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1482,1633,1727,1805"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,42",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1487,1638,3951",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1487,1638,6266",
                         "endColumns": "94,92,99,81,96,107,75,75,77,95,95,94,96,94,97,150,93,77",
-                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1482,1633,1727,4024"
+                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1482,1633,1727,6339"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\8dbf8a6466f67a36a4b2fac2cb774139\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "166",
+                        "endOffsets": "417"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "4973",
+                        "endColumns": "166",
+                        "endOffsets": "5135"
                     }
                 }
             ]

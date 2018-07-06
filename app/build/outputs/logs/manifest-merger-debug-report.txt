@@ -1,19 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\ed2782216f81dbc9fca40af50946f3db\AndroidManifest.xml:21:1-31:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\72c4caf20098d5f770bac96bedecc01d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:21:1-37:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3e475610f5fe4287028129b4ef28d6f8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ebb1e5597cd4ccb3ff0f0ab591513a7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:17:1-32:12
 MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:21:1-53:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3bfd30a9f6de6bde7c37de77841cdc0c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b7f04c4c6ab5ba1b30dd16bc1b8f7420\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b9079dc9d41a8c3c7670802e3dcbc72d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\cc2474fa0626fcadcba0935af87eb966\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2d29c1a78d6ce6c223af5f7a7ecd4beb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\48f94ee72b42eba4ee9e74ce785e3562\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4153f4928c01d94f6895701ca609de4d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e37e73be3d6cdac4875c42c1b1a207a7\AndroidManifest.xml:17:1-22:12
@@ -26,157 +30,177 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Chirag\.gradle
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8876e58b1387f9e152e2c38c776cc077\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\18783ea0a43cf05ad777e3a874200db2\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\78d82d732d6dc95f25eab877361f9faa\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:5:5-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:5:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:10:22-78
 application
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:10:5-55:19
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:12:5-57:19
 MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\ed2782216f81dbc9fca40af50946f3db\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\ed2782216f81dbc9fca40af50946f3db\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:28:5-35:19
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:28:5-35:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ebb1e5597cd4ccb3ff0f0ab591513a7\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ebb1e5597cd4ccb3ff0f0ab591513a7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:30:5-20
 MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:28:5-51:19
 MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2d29c1a78d6ce6c223af5f7a7ecd4beb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2d29c1a78d6ce6c223af5f7a7ecd4beb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:22:5-26:19
 	android:supportsRtl
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:18:9-41
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:17:9-19:55
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:19:9-21:55
 	android:value
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:19:13-52
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:21:13-52
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:18:13-58
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:20:13-58
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:21:9-24:48
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:23:9-26:48
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:26:13-45
 	android:configChanges
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:23:13-96
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:25:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:22:13-57
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:24:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:25:9-36:20
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:27:9-38:20
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:26:13-58
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:28:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:28:13-35:29
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:30:13-37:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:31:17-76
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:33:17-76
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:31:27-73
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:33:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:32:17-78
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:34:17-78
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:32:27-75
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:34:27-75
 data
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:34:17-75
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:36:17-75
 	android:scheme
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:34:23-72
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:36:23-72
 activity#com.example.kashyap.zonaldesk.RegisterScreen
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:37:9-52
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:39:9-52
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:37:19-49
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:39:19-49
 activity#com.example.kashyap.zonaldesk.MainActivity
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:38:9-44:20
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:40:9-46:20
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:38:19-47
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:40:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:44:27-74
 activity#com.example.kashyap.zonaldesk.LoginScreen
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:45:9-49
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:47:9-49
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:45:19-46
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:47:19-46
 activity#com.example.kashyap.zonaldesk.ServiceRequest
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:46:9-52
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:48:9-52
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:46:19-49
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:48:19-49
 activity#com.example.kashyap.zonaldesk.FeedbackForm
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:47:9-50
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:49:9-50
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:47:19-47
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:49:19-47
 activity#com.example.kashyap.zonaldesk.OTP
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:48:9-41
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:50:9-41
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:48:19-38
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:50:19-38
 activity#com.example.kashyap.zonaldesk.CustomerDashboard
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:49:9-55
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:51:9-55
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:49:19-52
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:51:19-52
 activity#com.example.kashyap.zonaldesk.ManagementDashboard
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:50:9-57
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:52:9-57
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:50:19-54
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:52:19-54
 activity#com.example.kashyap.zonaldesk.WebTrial
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:51:9-53:59
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:53:9-55:59
 	android:theme
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:53:13-56
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:54:13-37
 activity#com.example.kashyap.zonaldesk.EngineersDashboard
-ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:54:9-65
+ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:56:9-65
 	android:name
-		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:54:19-53
+		ADDED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml:56:19-53
 uses-sdk
 INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\src\main\AndroidManifest.xml
@@ -191,6 +215,8 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Chirag\.gradle\ca
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3e475610f5fe4287028129b4ef28d6f8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ebb1e5597cd4ccb3ff0f0ab591513a7\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ebb1e5597cd4ccb3ff0f0ab591513a7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3bfd30a9f6de6bde7c37de77841cdc0c\AndroidManifest.xml:20:5-44
@@ -201,6 +227,12 @@ MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Chirag\.gradle\cac
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b9079dc9d41a8c3c7670802e3dcbc72d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\cc2474fa0626fcadcba0935af87eb966\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\cc2474fa0626fcadcba0935af87eb966\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2d29c1a78d6ce6c223af5f7a7ecd4beb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2d29c1a78d6ce6c223af5f7a7ecd4beb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\48f94ee72b42eba4ee9e74ce785e3562\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\48f94ee72b42eba4ee9e74ce785e3562\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\4153f4928c01d94f6895701ca609de4d\AndroidManifest.xml:20:5-44
@@ -239,6 +271,12 @@ activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:33:9-71
 	android:name
 		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\46e8c4c736fd3ec5566e6264ce8f3af4\AndroidManifest.xml:33:19-68
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\c19cbeb6a7baab7058d0e1f2b4da75a6\AndroidManifest.xml:28:9-32
 provider#com.facebook.internal.FacebookInitProvider
 ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:39:9-42:40
 	android:authorities
@@ -259,3 +297,17 @@ action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
 ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:48:17-95
 	android:name
 		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\4abf5f69c775d3a5b6f3cbd778c0db9c\AndroidManifest.xml:48:25-92
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\39fad7e8dcb11525af9b032257c6b49a\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Chirag\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\8dbf8a6466f67a36a4b2fac2cb774139\AndroidManifest.xml:24:13-58

@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         zonal = findViewById(R.id.zonal);
         title = findViewById(R.id.heading);
         ET_IP = findViewById(R.id.IP);
-        Button go;
-        go = findViewById(R.id.go);
+        //Button go;
+        //go = findViewById(R.id.go);
 
         ET_IP.setText("192.168.0.0");
 

@@ -99,7 +99,7 @@ public class CustomerDashboard extends AppCompatActivity implements NavigationVi
         startActivity(intent);
     }
 
-    public void ServiceRequstIntent(View view) {
+    public void ServiceRequestIntent(View view) {
         Intent intent = new Intent(CustomerDashboard.this, ServiceRequest.class);
         startActivity(intent);
     }
@@ -110,5 +110,11 @@ public class CustomerDashboard extends AppCompatActivity implements NavigationVi
                 .putString(PREF_USERNAME, null)
                 .putString(PREF_PASSWORD, null)
                 .apply();
+    }
+
+    public void MapsIntent(View view) {
+
+        Intent intent = new Intent(CustomerDashboard.this,MapsActivity.class);
+        startActivity(intent);
     }
 }
