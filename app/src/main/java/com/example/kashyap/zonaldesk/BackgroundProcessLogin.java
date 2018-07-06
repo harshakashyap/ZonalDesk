@@ -87,6 +87,7 @@ public class BackgroundProcessLogin extends AsyncTask<String, Void, String> {
                 inputStream.close();
                 httpURLConnection.disconnect();
                 this.result = result;
+                Log.d("GG", "doInBackground: result0"+result);
                 return result;
 
             } catch (MalformedURLException e) {

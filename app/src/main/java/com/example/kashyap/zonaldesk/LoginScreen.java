@@ -152,6 +152,7 @@ public class LoginScreen extends AppCompatActivity {
         }
 
         result = backgroundProcessLogin.getResult();
+        Log.d("null pointer", "loginFunction: result"+result);
 
         if (result.equals("Customer")) {  //Tip is wrong Try both always
             Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();

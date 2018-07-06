@@ -77,13 +77,17 @@ public class BackgroundProcessRegister extends AsyncTask<String, Void, String> {
 
                 String result = "";
                 String line = "";
+                Log.d("GG", "doInBackground: result0"+result);
                 while ((line = bufferedReader.readLine()) != null) {
                     result += line;
+                    Log.d("GG", "doInBackground: result0"+result);
                 }
 
                 bufferedReader.close();
                 inputStream.close();
                 httpURLConnection.disconnect();
+
+                Log.d("GG", "doInBackground: result0"+result);
 
                 return result;
 

@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void go(View view) {
 
+        writeToFile(ET_IP.getText().toString(),this);
+
         Thread timer = new Thread() {
             @Override
             public void run() {

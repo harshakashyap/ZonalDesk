@@ -5,105 +5,38 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.3"
-    timestamp="1530526686556"
+    timestamp="1530856153009"
     token="7703287709792682049"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="593" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="83" />
     <task
         name="verifier"
-        duration="0" />
+        duration="27" />
 
     <artifact
-        location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1530524181471"
+        timestamp="1530854280872"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1530525067616"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1530526591400"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -112,18 +45,40 @@
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1530526686556"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1530856153009"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\Chirag\Downloads\ZonalDesk\ZonalDesk\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
     </build>
 
