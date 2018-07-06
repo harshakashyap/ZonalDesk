@@ -1,17 +1,17 @@
 #Internal package file, do not edit.
-#Fri Jul 06 12:39:25 IST 2018
-2.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\183
+#Fri Jul 06 14:29:01 IST 2018
+2.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\240
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\186
+3.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\243
 2.set=DEX
 1.path=classes.dex
-4.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\184
+4.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\241
 count=6
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\182
+5.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\239
 4.set=DEX
 3.path=classes.dex
 3.baseType=DIRECTORY
@@ -19,9 +19,9 @@ count=6
 4.path=classes.dex
 1.baseType=DIRECTORY
 5.path=classes.dex
-0.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\187
+0.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\244
 0.baseType=DIRECTORY
 3.set=DEX
-1.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\185
+1.base=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\242
 4.baseType=DIRECTORY
 0.set=DEX

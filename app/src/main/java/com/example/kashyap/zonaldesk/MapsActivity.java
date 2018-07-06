@@ -51,16 +51,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        Log.d("gg", "onCreate: oncreate");
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-       // mMap = findViewById(R.id.map);
+        // mMap = findViewById(R.id.map);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        Log.d("gg", "onCreate: oncreate");
-
         setUpMapIfNeeded();
         req=Volley.newRequestQueue(this);
 
@@ -101,7 +95,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         {
             Geocoder geocoder = new Geocoder(this);
             try {
-                 addressList=geocoder.getFromLocationName(location,1);
+                addressList=geocoder.getFromLocationName(location,1);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -114,10 +108,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Address address =addressList.get(0);
 
             LatLng latLng = new LatLng(address.getLatitude(),address.getLongitude());
-        //    MarkerOptions marker = new MarkerOptions().position(new LatLng(loc.latitude, loc.longitude)).title("Hello Maps");
-           // marker.setIcon(BitmapDescriptorFactory.fromResource(R.drawable.my_marker_icon));
+            //    MarkerOptions marker = new MarkerOptions().position(new LatLng(loc.latitude, loc.longitude)).title("Hello Maps");
+            // marker.setIcon(BitmapDescriptorFactory.fromResource(R.drawable.my_marker_icon));
             mMap.addMarker(new MarkerOptions().position(latLng).title("Marker"));
             mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
+        }
+        else
+        {
+            Toast.makeText(this, "wrong", Toast.LENGTH_SHORT).show();
+            return;
         }
 
     }
@@ -127,7 +126,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setUpMapIfNeeded();
     }
 
-    /*private String getCompleteAddressString(double LATITUDE, double LONGITUDE) {
+    private String getCompleteAddressString(double LATITUDE, double LONGITUDE) {
         String strAdd = "";
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
         try {
@@ -149,7 +148,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Log.w("MyCurrentloctionaddress", "CanontgetAdress!");
         }
         return strAdd;
-    }*/
+    }
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
@@ -179,7 +178,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             //@Override
             public void onMapClick(LatLng point) {
-               // String joinString1=point.latitude+","+point.longitude;
+                // String joinString1=point.latitude+","+point.longitude;
                 MarkerOptions marker = new MarkerOptions().position(
                         new LatLng(point.latitude, point.longitude)).title(point.latitude+", "+point.longitude);
                 mMap.clear();
@@ -192,7 +191,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         try {
                             String address= response.getJSONArray("results").getJSONObject(0).getString("formatted_address");
                             EditText location_tf = findViewById( R.id.TFaddress);
-                             location_tf.setText(address);
+                            location_tf.setText(address);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -212,8 +211,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         });
-      //  double latitude= (double)loc.latitude;
-      // String final_address=getCompleteAddressString((double)loc.latitude,(double)loc.longitude);
+        //  double latitude= (double)loc.latitude;
+        // String final_address=getCompleteAddressString((double)loc.latitude,(double)loc.longitude);
 
 
 
