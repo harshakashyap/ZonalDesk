@@ -1,4 +1,4 @@
-#Fri Jul 06 14:29:01 IST 2018
+#Wed Jul 11 11:37:12 IST 2018
 path.1=classes.dex
 path.0=classes.dex
 renamed.5=classes6.dex
@@ -7,12 +7,12 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\240
-base.4=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\243
-base.3=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\241
-base.2=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\244
-base.1=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\242
-base.0=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\239
+base.5=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\259
+base.4=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\262
+base.3=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\260
+base.2=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\263
+base.1=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\258
+base.0=C\:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\261
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex

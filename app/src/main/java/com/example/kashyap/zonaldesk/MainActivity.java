@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //Button go;
         //go = findViewById(R.id.go);
 
-        ET_IP.setText("192.168.137.1");
+        ET_IP.setText("192.168.43.162");
 
 
 
