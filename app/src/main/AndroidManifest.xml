@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kashyap.zonaldesk">
+    package="com.example.dev.zonaldesk">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -40,26 +40,26 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.dev.zonaldesk.RegisterScreen" />
+        <activity android:name="com.example.dev.zonaldesk.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginScreen" />
-        <activity android:name=".ServiceRequest" />
-        <activity android:name=".FeedbackForm" />
-        <activity android:name=".OTP" />
-        <activity android:name=".CustomerDashboard" />
-        <activity android:name=".ManagementDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.LoginScreen" />
+        <activity android:name="com.example.dev.zonaldesk.ServiceRequest" />
+        <activity android:name="com.example.dev.zonaldesk.FeedbackForm" />
+        <activity android:name="com.example.dev.zonaldesk.OTP" />
+        <activity android:name="com.example.dev.zonaldesk.CustomerDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.ManagementDashboard" />
         <activity
-            android:name=".WebTrial"
+            android:name="com.example.dev.zonaldesk.WebTrial"
             android:theme="@style/ZonalDeskNoActionBar" />
-        <activity android:name=".EngineersDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.EngineersDashboard" />
         <activity
-            android:name=".MapsActivity"
+            android:name="com.example.dev.zonaldesk.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
     </application>
 

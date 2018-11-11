@@ -53,26 +53,26 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kashyap.zonaldesk.RegisterScreen" />
-        <activity android:name="com.example.kashyap.zonaldesk.MainActivity" >
+        <activity android:name="com.example.dev.zonaldesk.RegisterScreen" />
+        <activity android:name="com.example.dev.zonaldesk.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kashyap.zonaldesk.LoginScreen" />
-        <activity android:name="com.example.kashyap.zonaldesk.ServiceRequest" />
-        <activity android:name="com.example.kashyap.zonaldesk.FeedbackForm" />
-        <activity android:name="com.example.kashyap.zonaldesk.OTP" />
-        <activity android:name="com.example.kashyap.zonaldesk.CustomerDashboard" />
-        <activity android:name="com.example.kashyap.zonaldesk.ManagementDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.LoginScreen" />
+        <activity android:name="com.example.dev.zonaldesk.ServiceRequest" />
+        <activity android:name="com.example.dev.zonaldesk.FeedbackForm" />
+        <activity android:name="com.example.dev.zonaldesk.OTP" />
+        <activity android:name="com.example.dev.zonaldesk.CustomerDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.ManagementDashboard" />
         <activity
-            android:name="com.example.kashyap.zonaldesk.WebTrial"
+            android:name="com.example.dev.zonaldesk.WebTrial"
             android:theme="@style/ZonalDeskNoActionBar" />
-        <activity android:name="com.example.kashyap.zonaldesk.EngineersDashboard" />
+        <activity android:name="com.example.dev.zonaldesk.EngineersDashboard" />
         <activity
-            android:name="com.example.kashyap.zonaldesk.MapsActivity"
+            android:name="com.example.dev.zonaldesk.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name="com.facebook.CustomTabMainActivity" />
         <!--
