@@ -81,6 +81,7 @@ public class BackgroundProcessConfirmEmail extends AsyncTask<String, Void, Strin
                 while ((line = bufferedReader.readLine()) != null) {
                     result += line;
                 }
+                Log.d("OTP123",result);
 
                 bufferedReader.close();
                 inputStream.close();

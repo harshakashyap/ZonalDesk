@@ -3,6 +3,7 @@ package com.example.dev.zonaldesk;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -11,8 +12,9 @@ import java.util.concurrent.TimeUnit;
 
 public class OTP extends AppCompatActivity {
 
-    String name, phone, email, password, OTP;
+    String name, phone, email, password, OTP, result = null;
     EditText ET_OTP;
+    Object mutex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,19 +40,31 @@ public class OTP extends AppCompatActivity {
             Toast.makeText(this, "Please wait while your account is being created.", Toast.LENGTH_LONG).show();
 
 
-            BackgroundProcessRegister backgroundProcessRegister = new BackgroundProcessRegister(this);
+            final BackgroundProcessRegister backgroundProcessRegister = new BackgroundProcessRegister(this);
             backgroundProcessRegister.execute("Register", name, phone, email, password);
+            mutex = new Object();
 
-            try {
-                TimeUnit.MILLISECONDS.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+            new Thread() {
+                @Override
+                public void run() {
+                    synchronized (mutex) {
+                        while (result == null) result = backgroundProcessRegister.getResult();
+                        mutex.notify();
+                    }
+                }
+            }.start();
+            synchronized (mutex) {
+                try {
+                    mutex.wait();
+                    Log.d("OTP", result);
+                    Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(OTP.this, LoginScreen.class);
+                    intent.putExtra("email", email);
+                    startActivity(intent);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-
-            Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(OTP.this, LoginScreen.class);
-            intent.putExtra("email", email);
-            startActivity(intent);
         } else {
             Toast.makeText(this, "Wrong. Please re-enter correct OTP", Toast.LENGTH_SHORT).show();
         }

@@ -159,38 +159,34 @@ public class LoginScreen extends AppCompatActivity {
                 }
             }
         }.start();
-        while (result == null) {
-            synchronized (mutex) {
-                try {
-                    mutex.wait();
-                    Log.d("null pointer", "loginFunction: result"+result);
 
-                    if (result.equals("Customer")) {  //Tip is wrong Try both always
-                        Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
+        synchronized (mutex) {
+            try {
+                mutex.wait();
+                Log.d("null pointer", "loginFunction: result"+result);
 
-                        intent = new Intent(LoginScreen.this, CustomerDashboard.class);
-                        startActivity(intent);
-                    } else if (result.equals("Manager")) {
-                        Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
-                        intent = new Intent(LoginScreen.this, ManagementDashboard.class);
-                        startActivity(intent);
+                if (result.equals("Customer")) {  //Tip is wrong Try both always
+                    Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
 
-                    } else if (result.equals("Engineer")) {
-                        Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
-                        intent = new Intent(LoginScreen.this, EngineersDashboard.class);
-                        startActivity(intent);
+                    intent = new Intent(LoginScreen.this, CustomerDashboard.class);
+                    startActivity(intent);
+                } else if (result.equals("Manager")) {
+                    Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(LoginScreen.this, ManagementDashboard.class);
+                    startActivity(intent);
 
-                    } else {
-                        Toast.makeText(LoginScreen.this, "" + result, Toast.LENGTH_SHORT).show();
-                    }
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                } else if (result.equals("Engineer")) {
+                    Toast.makeText(this, "Welcome " + result, Toast.LENGTH_SHORT).show();
+                    intent = new Intent(LoginScreen.this, EngineersDashboard.class);
+                    startActivity(intent);
+
+                } else {
+                    Toast.makeText(LoginScreen.this, "" + result, Toast.LENGTH_SHORT).show();
                 }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
-
-
-
     }
 }
 

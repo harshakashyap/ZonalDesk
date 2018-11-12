@@ -23,6 +23,8 @@ public class RegisterScreen extends AppCompatActivity {
     EditText confirm_password;
     EditText email;
     EditText password;
+    String result, OTP;
+    Object mutex1, mutex2;
     TextInputLayout name_layout;
     TextInputLayout phone_layout;
     TextInputLayout address_layout;
@@ -61,7 +63,7 @@ public class RegisterScreen extends AppCompatActivity {
         Log.d("NotWorking", "3");
     }
 
-    public void signup(View view) {
+    public void signup(View view) throws InterruptedException {
         Log.d("NotWorking", "First1");
         if (phone.getText().toString().length() != 10) {
 
@@ -81,68 +83,73 @@ public class RegisterScreen extends AppCompatActivity {
             Log.d("NotWorking", "GoodGod1");
 
 
-            BackgroundProcessUserCheck backgroundProcessUserCheck = new BackgroundProcessUserCheck(this);
+            final BackgroundProcessUserCheck backgroundProcessUserCheck = new BackgroundProcessUserCheck(this);
             backgroundProcessUserCheck.execute("UserCheck", phone.getText().toString(), email.getText().toString());
+            mutex1 = new Object();
+            mutex2 = new Object();
 
-            try {
-                TimeUnit.MILLISECONDS.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            String result = backgroundProcessUserCheck.getResult();
-
-            Log.d("BackgroundUserCheck", "Before IF :" + result);
-
-            if (result.equals("No")) {
-                Toast.makeText(this, "EmailID / Phone already registered!", Toast.LENGTH_LONG).show();
-                AlertDialog alertDialog;
-                alertDialog = new AlertDialog.Builder(this).create();
-                alertDialog.setTitle("Registration Error");
-                alertDialog.setMessage("EmailID / Phone is already registered!");
-                alertDialog.show();
-                //System.exit(0);
-            } else {
-
-
-                try {
-                    TimeUnit.MILLISECONDS.sleep(200);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+            Thread t1 = new Thread() {
+                @Override
+                public void run() {
+                    synchronized (mutex1) {
+                        while (result == null) result = backgroundProcessUserCheck.getResult();
+                        mutex1.notify();
+                    }
                 }
+            };
+            t1.start();
 
 
-                BackgroundProcessConfirmEmail backgroundProcessConfirmEmail = new BackgroundProcessConfirmEmail(this);
-                backgroundProcessConfirmEmail.execute("Confirm", email.getText().toString());
+            synchronized (mutex1) {
+                mutex1.wait();
 
+                Log.d("BackgroundUserCheck", "Before IF :" + result);
 
-                try {
-                    TimeUnit.MILLISECONDS.sleep(500);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                if (result.equals("No")) {
+                    Toast.makeText(this, "EmailID / Phone already registered!", Toast.LENGTH_LONG).show();
+                    AlertDialog alertDialog;
+                    alertDialog = new AlertDialog.Builder(this).create();
+                    alertDialog.setTitle("Registration Error");
+                    alertDialog.setMessage("EmailID / Phone is already registered!");
+                    alertDialog.show();
+                    //System.exit(0);
+                } else {
+
+                    final BackgroundProcessConfirmEmail backgroundProcessConfirmEmail = new BackgroundProcessConfirmEmail(this);
+                    backgroundProcessConfirmEmail.execute("Confirm", email.getText().toString());
+
+                    Thread t2 = new Thread() {
+                        @Override
+                        public void run() {
+                            synchronized (mutex2) {
+                                while (OTP == null) OTP = backgroundProcessConfirmEmail.getOTP();
+                                mutex2.notify();
+                            }
+                        }
+                    };
+                    t2.start();
+
+                    synchronized (mutex2) {
+                        mutex2.wait();
+
+                        Intent intent = new Intent(RegisterScreen.this, OTP.class);
+                        intent.putExtra("name", name.getText().toString());
+                        intent.putExtra("phone", phone.getText().toString());
+                        intent.putExtra("email", email.getText().toString());
+                        intent.putExtra("password", password.getText().toString());
+                        intent.putExtra("OTP", OTP);
+
+                        name.setText("");
+                        phone.setText("");
+                        email.setText("");
+                        password.setText("");
+                        confirm_password.setText("");
+
+                        startActivity(intent);
+                    }
+
                 }
-
-
-                String OTP = backgroundProcessConfirmEmail.getOTP();
-
-                Intent intent = new Intent(RegisterScreen.this, OTP.class);
-                intent.putExtra("name", name.getText().toString());
-                intent.putExtra("phone", phone.getText().toString());
-                intent.putExtra("email", email.getText().toString());
-                intent.putExtra("password", password.getText().toString());
-                intent.putExtra("OTP", OTP);
-
-                name.setText("");
-                phone.setText("");
-                email.setText("");
-                password.setText("");
-                confirm_password.setText("");
-
-                startActivity(intent);
             }
-
-
-
 
 
             /*Toast.makeText(this,"Registered Successfully",Toast.LENGTH_SHORT).show();

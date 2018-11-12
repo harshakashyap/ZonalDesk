@@ -26,6 +26,7 @@ public class BackgroundProcessRegister extends AsyncTask<String, Void, String> {
 
     Context context;
     AlertDialog alertDialog;
+    String result = null;
 
     BackgroundProcessRegister(Context context) {
         this.context = context;
@@ -75,7 +76,6 @@ public class BackgroundProcessRegister extends AsyncTask<String, Void, String> {
                 InputStream inputStream = httpURLConnection.getInputStream();
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
 
-                String result = "";
                 String line = "";
                 Log.d("GG", "doInBackground: result0"+result);
                 while ((line = bufferedReader.readLine()) != null) {
@@ -102,6 +102,11 @@ public class BackgroundProcessRegister extends AsyncTask<String, Void, String> {
 
 
         return null;
+    }
+
+    public String getResult() {
+        Log.d("BackgroundUserCheck", "in getResult :" + result);
+        return result;
     }
 
     protected String readFromFile(Context context) {
