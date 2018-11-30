@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+            "outputFile": "/home/roshan98b/AndroidStudioProjects/ZonalDesk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\39fad7e8dcb11525af9b032257c6b49a\\res\\values-my\\values.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9a70cfa892145286d04d2ecea824004e/res/values-my/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e475610f5fe4287028129b4ef28d6f8\\res\\values-my\\values-my.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e5e11d60ba6aedd959d6c12db8fde002/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\8dbf8a6466f67a36a4b2fac2cb774139\\res\\values-my\\values.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/4ed10a031e987b972b9ffa573d122772/res/values-my/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9e05df1bc6dcc34117e3b22e32f39651\\res\\values-my\\values-my.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c2f6103289a319a4bda0134af46af378/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

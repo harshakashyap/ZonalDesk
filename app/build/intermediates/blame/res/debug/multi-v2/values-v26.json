@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Chirag\\Downloads\\ZonalDesk\\ZonalDesk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/home/roshan98b/AndroidStudioProjects/ZonalDesk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\3e475610f5fe4287028129b4ef28d6f8\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e5e11d60ba6aedd959d6c12db8fde002/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chirag\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\72c4caf20098d5f770bac96bedecc01d\\res\\values-v26\\values-v26.xml",
+                    "source": "/home/roshan98b/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/aaf00079d5eb1ced1fa90fe4a312adec/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
